@@ -31,7 +31,14 @@ The Wine Quality data was loaded via Jupyter Notebook. The dataset is from Kaggl
 ## 3. Data Preparation
 
 ## 4. Modeling
-
+* Linear Regression
+* Polynomial Regression
+* Decision Tree Regression
+* Support Vector Regression
+* K-Nearest Neighbors Regression
+* Random Forest Regression
+* Gradient Boosting Regression (e.g., XGBoost, LightGBM)
+* Neural Network Regression
 ## 5. Evaluation
 
 ## 6. Recommendation
