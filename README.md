@@ -14,7 +14,7 @@ Overall, the Radom Forest classification model maximizes profits the most. Consi
 │   ├── quality distribution.jpg                  <- quality distribution image used in the README.                             
 │
 ├── Red Wine Classification Project.ipynb         <- code
-├── WineQT.csv                                    <- dataset
+├── Dummy Data HSS.csv                            <- dataset
 ```
 ## 1. Business Understanding
 
