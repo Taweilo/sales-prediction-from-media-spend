@@ -11,7 +11,7 @@ Badge [source](https://shields.io/)
 This project will follow the BA workflow to tackle red wine business issues using data mining techniques. A red wine retailer imports wine and sells it to customers. Thus, it needs to predict the wine quality for the business when importing. Via machine learning techniques, we can classify and predict the quality in advance. By evaluating the model performance, we can make better decisions and thus maximize profits in advance.
 Overall, the Radom Forest classification model maximizes profits the most. Considering the non-ml and ml model, ml model always performs better than the non-ml model under different true positive rate conditions. 
 
-## Repository structure
+## Repository structure (Not yet)
 ```
 ├── Image
 │   ├── business value.jpg                        <- image used in the README.
@@ -25,7 +25,7 @@ Overall, the Radom Forest classification model maximizes profits the most. Consi
 ```
 ## 1. Business Understanding
 
-## 2. Data Understanding
+## 2. Data Understanding (Not yet)
 The Wine Quality data was loaded via Jupyter Notebook. The dataset is from Kaggle: https://www.kaggle.com/datasets/harrimansaragih/dummy-advertising-and-sales-data (also please see Dummy Data HSS.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.
 
 | Name | Modeling Role | Measurement Level| Description|
@@ -36,9 +36,9 @@ The Wine Quality data was loaded via Jupyter Notebook. The dataset is from Kaggl
 | **Influencer** | input | float | Type of Influencers |
 | **Sales** | target | float | Sales in million |
 
-## 3. Data Preparation
+## 3. Data Preparation (Not yet)
 
-## 4. Modeling
+## 4. Modeling (Not yet)
 * Linear Regression
 * Polynomial Regression
 * Decision Tree Regression
