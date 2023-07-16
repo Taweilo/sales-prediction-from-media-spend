@@ -8,8 +8,7 @@
 Badge [source](https://shields.io/)
  <img src="https://ewm.swiss/application/files/3916/6365/7200/The_Future_of_Marketing_EWM_SA_Digital_Agency_Geneva.jpg" width="1100" height="450">
 
-This project will follow the BA workflow to tackle red wine business issues using data mining techniques. A red wine retailer imports wine and sells it to customers. Thus, it needs to predict the wine quality for the business when importing. Via machine learning techniques, we can classify and predict the quality in advance. By evaluating the model performance, we can make better decisions and thus maximize profits in advance.
-Overall, the Radom Forest classification model maximizes profits the most. Considering the non-ml and ml model, ml model always performs better than the non-ml model under different true positive rate conditions. 
+In this project, we aim to optimize media spending for a business by leveraging data mining techniques to analyze the relationship between media spend and revenue. The company has been running multiple media channels to promote its products/services, and while it has ROI metrics to evaluate Key Performance Indicators (KPIs), it is more interested in understanding how media spend influences revenue. Through machine learning and inferencing techniques, we seek to predict sales based on media spend, enabling the company to allocate resources effectively and optimize its media channel management.
 
 ## Repository structure (Not yet)
 ```
@@ -26,7 +25,7 @@ Overall, the Radom Forest classification model maximizes profits the most. Consi
 ## 1. Business Understanding
 
 ## 2. Data Understanding (Not yet)
-The Wine Quality data was loaded via Jupyter Notebook. The dataset is from Kaggle: https://www.kaggle.com/datasets/harrimansaragih/dummy-advertising-and-sales-data (also please see Dummy Data HSS.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.
+The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/harrimansaragih/dummy-advertising-and-sales-data (also please see Dummy Data HSS.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.
 
 | Name | Modeling Role | Measurement Level| Description|
 | ---- | ------------- | ---------------- | ---------- |
