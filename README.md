@@ -33,7 +33,7 @@ The Wine Quality data was loaded via Jupyter Notebook. The dataset is from Kaggl
 | **TV** | input | float | TV promotion budget (in million) |
 | **Radio** | input | float | Radio promotion budget (in million) |
 | **Social Media** | input | float | Social Media promotion budget (in million) |
-| **Influencer** | input | float | Type of Influencers |
+| **Influencer** | input | Object | Type of Influencers |
 | **Sales** | target | float | Sales in million |
 
 ## 3. Data Preparation (Not yet)
