@@ -46,7 +46,7 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/heatmap.jpg" width="300">
 
 * Pairplot
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/Pairplot.jpg" width="400">
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/pairplot.jpg" width="400">
  
 ## 3. Data Preparation 
 1. Define variables
