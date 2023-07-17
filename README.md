@@ -13,13 +13,15 @@ In this project, we aim to optimize media spending for a business by leveraging 
 ## Repository structure (Not yet)
 ```
 ├── Image
-│   ├── business value.jpg                        <- image used in the README.
-│   ├── data statistics.jpg                       <- data statistics summary used in the README.
 │   ├── evaluation.jpg                            <- model summary table used in the README.
-│   ├── heatmap.jpg                               <- heatmap image used in the README.
-│   ├── quality distribution.jpg                  <- quality distribution image used in the README.                             
+│   ├── heatmap.jpg                               <- heatmap image used in the README
+│   ├── lr summary table.jpg                      <- linear regression model summary table used in the README.
+│   ├── original dataset.jpg                      <- original dataset image used in the README.
+│   ├── pairplot.jpg                              <- pairplot of different variables used in the README.
+│   ├── statistics.jpg                            <- statistics of variables used in the README.
+│   ├── y_pred vs y_test.jpg                      <- scatterplot of the predictions with test value used in the README.                                
 │
-├── Red Wine Classification Project.ipynb         <- code
+├── Sales_Prediction_code.ipynb                   <- python code
 ├── Dummy Data HSS.csv                            <- dataset
 ```
 ## 1. Business Understanding
@@ -51,7 +53,7 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
 ## 3. Data Preparation 
 1. Define variables (X and y)
 2. Get dummy variables 
-3. Split the data into train and test dataset <br>
+3. Split the data into train and test datasets <br>
    train: 2727 data<br>
    test:  1819 data<br>
   
@@ -85,8 +87,8 @@ The linear model has demonstrated superior performance, making it a compelling c
 * Model: Sales = -0.204 + 3.563 * (TV spend) + 0.007 * (Radio spend) + (-0.043) * (Social media spend) <br>
                  + 0.057 * (Influencer_Mega) <br>
                  + (-0.047) * (Influencer_Micro) <br>
-                 + (-0.069) * (Influencer_Nano) <br>
-Influence_Macro is the reference group.
+                 + (-0.069) * (Influencer_Nano) <br><br>
+**Influence_Macro is the reference group.** 
 
 * p-value: Only the variable TV is statistically significant suggesting that we are reasonably sure the coefficient of TV is not 0 in the population. 
 
