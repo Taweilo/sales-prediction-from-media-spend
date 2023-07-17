@@ -56,6 +56,7 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
    test:  1819 data
   
 ## 4. Modeling 
+Several models were included:
 * Linear Regression
 * LASSO Regression
 * Ridge Regression
@@ -66,9 +67,12 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
 * Random Forest Regression
 * Gradient Boosting Regression (e.g., XGBoost)
 * Neural Network Regression
+   <img src="https://global-uploads.webflow.com/5d3ec351b1eba4332d213004/6026b7494be6481c635b0f84_axkJOrqGKDEK3a6U4mf8fRr5t0FKQIVvbJhDFVFyINVnpkEcv54vLydIg4BOcmyl-cSRakxD3L5-JR8GXMuNU67F5eTXD7ZpL6-MEekv50k8lkEMvIT8ludrUxWOjhAZ8i1_-7eY.png" width="400">
+
+   The trade-off between interpretability and performance of these ML models. Highly interpretable algorithms such as linear regression, are often inaccurate because of high bias but low variance. Very accurate DNNs are a classic example of black boxes, with low bias but high variance.
   
 ## 5. Evaluation
- <img src="https://ewm.swiss/application/files/3916/6365/7200/The_Future_of_Marketing_EWM_SA_Digital_Agency_Geneva.jpg" width="400" >
+ <img src="https://docs.aws.amazon.com/images/whitepapers/latest/model-explainability-aws-ai-ml/images/interpretability-vs-performance-trade-off.png" width="500" >
  
 ## 6. Recommendation
 The linear model has demonstrated superior performance, making it a compelling candidate for a detailed analysis. Its simplicity and interpretability allow us to draw meaningful inferences for the entire population. The below summary table shows the R-square, Global F, coefficient, and p-value of the model:
