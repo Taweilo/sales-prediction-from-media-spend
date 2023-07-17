@@ -49,14 +49,15 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/pairplot.jpg" width="400">
  
 ## 3. Data Preparation 
-1. Define variables
-2. Get dummy variables
-3. Split the data into train and test dataset
-   train: 2727 data
-   test:  1819 data
+1. Define variables (X and y)
+2. Get dummy variables 
+3. Split the data into train and test dataset <br>
+   train: 2727 data<br>
+   test:  1819 data<br>
   
-## 4. Modeling 
-Several models were included:
+## 4. Modeling   
+   <img src="https://global-uploads.webflow.com/5d3ec351b1eba4332d213004/6026b7494be6481c635b0f84_axkJOrqGKDEK3a6U4mf8fRr5t0FKQIVvbJhDFVFyINVnpkEcv54vLydIg4BOcmyl-cSRakxD3L5-JR8GXMuNU67F5eTXD7ZpL6-MEekv50k8lkEMvIT8ludrUxWOjhAZ8i1_-7eY.png" width="400">
+The trade-off between interpretability and performance of these ML models. Highly interpretable algorithms such as linear regression, are often inaccurate because of high bias but low variance. Very accurate DNNs are a classic example of black boxes, with low bias but high variance. However, the model performance is highly associated with the data type. Several models were included for further evaluation:
 * Linear Regression
 * LASSO Regression
 * Ridge Regression
@@ -68,10 +69,6 @@ Several models were included:
 * Gradient Boosting Regression (e.g., XGBoost)
 * Neural Network Regression
   
-   <img src="https://global-uploads.webflow.com/5d3ec351b1eba4332d213004/6026b7494be6481c635b0f84_axkJOrqGKDEK3a6U4mf8fRr5t0FKQIVvbJhDFVFyINVnpkEcv54vLydIg4BOcmyl-cSRakxD3L5-JR8GXMuNU67F5eTXD7ZpL6-MEekv50k8lkEMvIT8ludrUxWOjhAZ8i1_-7eY.png" width="400">
-
-   The trade-off between interpretability and performance of these ML models. Highly interpretable algorithms such as linear regression, are often inaccurate because of high bias but low variance. Very accurate DNNs are a classic example of black boxes, with low bias but high variance. However, the model performance is highly associated with the data type.  
-  
 ## 5. Evaluation
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/evaluation.jpg" width="500" >
  
@@ -81,8 +78,8 @@ The linear model has demonstrated superior performance, making it a compelling c
 
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/lr%20summary%20table.jpg" width="500">
 
-* Adjusted R-square: 
-* Global F: 
+* Adjusted R-square: 0.999 indicates that the model can explain approximately 99.9% of the variation in the dependent variable based on the independent variables included in the model. 
+* p-value of Global F: 0.00 means statistical significance, so we are reasonably sure at least one variable is not 0. There is a relationship between independent and dependent variables in the population. 
 * Model: Sales = -0.204 + 3.563 * (TV spend) + 0.007 * (Radio spend) + (-0.043) * (Social media spend)
                  + 0.057 * (Influencer_Mega) 
                  + (-0.047) * (Influencer_Micro)
@@ -96,7 +93,7 @@ How to make a prediction:
 | **Influencer** | input | Object | Type of Influencers |
 | **Sales** | target | float | Sales in million |
 
-* p-value:
+* p-value: Only the variable TV is statistically significant suggesting that we are reasonably sure the coefficient of TV is not 0 in the population. 
 
 ### Deployment
 * code to predict test data  
