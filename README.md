@@ -23,10 +23,13 @@ In this project, we aim to optimize media spending for a business by leveraging 
 ├── Dummy Data HSS.csv                            <- dataset
 ```
 ## 1. Business Understanding
+Via the regression, we can predict the sales from media spending. Therefore, the company would manage its media channel effectively. Several machine learning techniques were applied and the best predictor would be suggested. 
 
 ## 2. Data Understanding (Not yet)
 The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/harrimansaragih/dummy-advertising-and-sales-data (also please see Dummy Data HSS.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.
 
+* Data frame
+ <img src="https://ewm.swiss/application/files/3916/6365/7200/The_Future_of_Marketing_EWM_SA_Digital_Agency_Geneva.jpg" width="1100" height="450">
 | Name | Modeling Role | Measurement Level| Description|
 | ---- | ------------- | ---------------- | ---------- |
 | **TV** | input | float | TV promotion budget (in million) |
@@ -35,17 +38,27 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
 | **Influencer** | input | Object | Type of Influencers |
 | **Sales** | target | float | Sales in million |
 
-## 3. Data Preparation (Not yet)
+* Statistics
+ <img src="https://ewm.swiss/application/files/3916/6365/7200/The_Future_of_Marketing_EWM_SA_Digital_Agency_Geneva.jpg" width="1100" height="450 
+* heatmap
+ <img src="https://ewm.swiss/application/files/3916/6365/7200/The_Future_of_Marketing_EWM_SA_Digital_Agency_Geneva.jpg" width="1100" height="450">
+* Scatter plot
+ <img src="https://ewm.swiss/application/files/3916/6365/7200/The_Future_of_Marketing_EWM_SA_Digital_Agency_Geneva.jpg" width="1100" height="450">
+ 
+## 3. Data Preparation 
 
 ## 4. Modeling (Not yet)
 * Linear Regression
-* Polynomial Regression
+* LASSO Regression
+* Ridge Regression
+* Elastic Net
 * Decision Tree Regression
 * Support Vector Regression
 * K-Nearest Neighbors Regression
 * Random Forest Regression
-* Gradient Boosting Regression (e.g., XGBoost, LightGBM)
+* Gradient Boosting Regression (e.g., XGBoost)
 * Neural Network Regression
+  
 ## 5. Evaluation
-
+ <img src="https://ewm.swiss/application/files/3916/6365/7200/The_Future_of_Marketing_EWM_SA_Digital_Agency_Geneva.jpg" width="1100" height="450">
 ## 6. Recommendation
