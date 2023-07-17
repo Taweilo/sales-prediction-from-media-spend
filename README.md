@@ -13,16 +13,18 @@ In this project, we aim to optimize media spending for a business by leveraging 
 ## Repository structure (Not yet)
 ```
 ├── Image
-│   ├── evaluation.jpg                            <- model summary table used in the README.
-│   ├── heatmap.jpg                               <- heatmap image used in the README
-│   ├── lr summary table.jpg                      <- linear regression model summary table used in the README.
-│   ├── original dataset.jpg                      <- original dataset image used in the README.
-│   ├── pairplot.jpg                              <- pairplot of different variables used in the README.
-│   ├── statistics.jpg                            <- statistics of variables used in the README.
-│   ├── y_pred vs y_test.jpg                      <- scatterplot of the predictions with test value used in the README.                                
+│   ├── evaluation.jpg                         <- model summary table used in the README.
+│   ├── heatmap.jpg                            <- heatmap image used in the README
+│   ├── lr summary table.jpg                   <- linear regression model summary table used in the README.
+│   ├── original dataset.jpg                   <- original dataset image used in the README.
+│   ├── pairplot.jpg                           <- pairplot of different variables used in the README.
+│   ├── statistics.jpg                         <- statistics of variables used in the README.
+│   ├── y_pred vs y_test.jpg                   <- scatterplot of the predictions with test value used in the README.                                
 │
-├── Sales_Prediction_code.ipynb                   <- python code
-├── Dummy Data HSS.csv                            <- dataset
+├── Dummy Data HSS.csv                         <- dataset
+├── LICENSE.txt                                <- license
+├── Sales_Prediction_code.ipynb                <- python code
+
 ```
 ## 1. Business Understanding
 Via the regression, we can predict the sales from media spending. Therefore, the company would manage its media channel effectively. Several machine learning techniques were applied and the best predictor would be suggested. 
