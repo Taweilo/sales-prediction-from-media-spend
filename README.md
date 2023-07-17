@@ -29,7 +29,7 @@ Via the regression, we can predict the sales from media spending. Therefore, the
 The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/harrimansaragih/dummy-advertising-and-sales-data (also please see Dummy Data HSS.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.
 
 * Original Dataset
- <img src="https://ewm.swiss/application/files/3916/6365/7200/The_Future_of_Marketing_EWM_SA_Digital_Agency_Geneva.jpg" width="1100" height="450">
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/original%20dataset.jpg" width="300">
  
 | Name | Modeling Role | Measurement Level| Description|
 | ---- | ------------- | ---------------- | ---------- |
@@ -71,4 +71,4 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
  <img src="https://ewm.swiss/application/files/3916/6365/7200/The_Future_of_Marketing_EWM_SA_Digital_Agency_Geneva.jpg" width="1100" height="450">
  
 ## 6. Recommendation
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/lr%20summary%20table.jpg width="1100">
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/lr%20summary%20table.jpg" width="1100">
