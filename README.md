@@ -25,7 +25,7 @@ In this project, we aim to optimize media spending for a business by leveraging 
 ## 1. Business Understanding
 Via the regression, we can predict the sales from media spending. Therefore, the company would manage its media channel effectively. Several machine learning techniques were applied and the best predictor would be suggested. 
 
-## 2. Data Understanding (Not yet)
+## 2. Data Understanding 
 The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/harrimansaragih/dummy-advertising-and-sales-data (also please see Dummy Data HSS.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.
 
 * Original Dataset
@@ -55,7 +55,7 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
    train: 2727 data
    test:  1819 data
   
-## 4. Modeling (Not yet)
+## 4. Modeling 
 * Linear Regression
 * LASSO Regression
 * Ridge Regression
