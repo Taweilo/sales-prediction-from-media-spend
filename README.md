@@ -71,4 +71,10 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
  <img src="https://ewm.swiss/application/files/3916/6365/7200/The_Future_of_Marketing_EWM_SA_Digital_Agency_Geneva.jpg" width="400" >
  
 ## 6. Recommendation
+The linear model has demonstrated superior performance, making it a compelling candidate for a detailed analysis. Its simplicity and interpretability allow us to draw meaningful inferences for the entire population. The below summary table shows the R-square, Global F, coefficient, and p-value of the model:
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/lr%20summary%20table.jpg" width="500">
+
+* R-square
+* Global F
+* coefficient
+* p-value 
