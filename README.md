@@ -73,7 +73,7 @@ Several models were included:
    The trade-off between interpretability and performance of these ML models. Highly interpretable algorithms such as linear regression, are often inaccurate because of high bias but low variance. Very accurate DNNs are a classic example of black boxes, with low bias but high variance.
   
 ## 5. Evaluation
- <img src="https://docs.aws.amazon.com/images/whitepapers/latest/model-explainability-aws-ai-ml/images/interpretability-vs-performance-trade-off.png" width="500" >
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/evaluation.jpg" width="500" >
  
 ## 6. Recommendation
 The linear model has demonstrated superior performance, making it a compelling candidate for a detailed analysis. Its simplicity and interpretability allow us to draw meaningful inferences for the entire population. The below summary table shows the R-square, Global F, coefficient, and p-value of the model:
@@ -86,4 +86,13 @@ The linear model has demonstrated superior performance, making it a compelling c
                  + 0.057 * (Influencer_Mega) 
                  + (-0.047) * (Influencer_Micro)
                  + (-0.069) * (Influencer_Nano) 
-* p-value:  
+* p-value:
+
+* code to predict test data
+  
+```
+y_pred = linear_regressor.predict(X_test)
+
+```
+
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/y_pred%20vs%20y_test.jpg" width="500">
