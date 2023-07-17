@@ -72,9 +72,13 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
  
 ## 6. Recommendation
 The linear model has demonstrated superior performance, making it a compelling candidate for a detailed analysis. Its simplicity and interpretability allow us to draw meaningful inferences for the entire population. The below summary table shows the R-square, Global F, coefficient, and p-value of the model:
+
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/lr%20summary%20table.jpg" width="500">
 
-* R-square
-* Global F
-* coefficient
-* p-value 
+* Adjusted R-square: 
+* Global F: 
+* Model: Sales = -0.204 + 3.563 * (TV spend) + 0.007 * (Radio spend) + (-0.043) * (Social media spend)
+                 + 0.057 * (Influencer_Mega) 
+                 + (-0.047) * (Influencer_Micro)
+                 + (-0.069) * (Influencer_Nano) 
+* p-value:  
