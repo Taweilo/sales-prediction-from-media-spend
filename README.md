@@ -70,7 +70,7 @@ Several models were included:
   
    <img src="https://global-uploads.webflow.com/5d3ec351b1eba4332d213004/6026b7494be6481c635b0f84_axkJOrqGKDEK3a6U4mf8fRr5t0FKQIVvbJhDFVFyINVnpkEcv54vLydIg4BOcmyl-cSRakxD3L5-JR8GXMuNU67F5eTXD7ZpL6-MEekv50k8lkEMvIT8ludrUxWOjhAZ8i1_-7eY.png" width="400">
 
-   The trade-off between interpretability and performance of these ML models. Highly interpretable algorithms such as linear regression, are often inaccurate because of high bias but low variance. Very accurate DNNs are a classic example of black boxes, with low bias but high variance.
+   The trade-off between interpretability and performance of these ML models. Highly interpretable algorithms such as linear regression, are often inaccurate because of high bias but low variance. Very accurate DNNs are a classic example of black boxes, with low bias but high variance. However, the model performance is highly associated with the data type.  
   
 ## 5. Evaluation
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/evaluation.jpg" width="500" >
@@ -86,7 +86,16 @@ The linear model has demonstrated superior performance, making it a compelling c
 * Model: Sales = -0.204 + 3.563 * (TV spend) + 0.007 * (Radio spend) + (-0.043) * (Social media spend)
                  + 0.057 * (Influencer_Mega) 
                  + (-0.047) * (Influencer_Micro)
-                 + (-0.069) * (Influencer_Nano) 
+                 + (-0.069) * (Influencer_Nano)
+How to make a prediction:
+| Coefficient | Modeling Role | Description |
+| ---- | ------------- | ---------------- | 
+| **TV** | input | float | TV promotion budget (in million) |
+| **Radio** | input | float | Radio promotion budget (in million) |
+| **Social Media** | input | float | Social Media promotion budget (in million) |
+| **Influencer** | input | Object | Type of Influencers |
+| **Sales** | target | float | Sales in million |
+
 * p-value:
 
 ### Deployment
