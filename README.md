@@ -40,9 +40,11 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
 | **Sales** | target | float | Sales in million |
 
 * Statistics
- <img src="https://ewm.swiss/application/files/3916/6365/7200/The_Future_of_Marketing_EWM_SA_Digital_Agency_Geneva.jpg" width="1100" height="450"> 
+ <img src="https://ewm.swiss/application/files/3916/6365/7200/The_Future_of_Marketing_EWM_SA_Digital_Agency_Geneva.jpg" width="1100" height="450">
+
 * heatmap
  <img src="https://ewm.swiss/application/files/3916/6365/7200/The_Future_of_Marketing_EWM_SA_Digital_Agency_Geneva.jpg" width="1100" height="450">
+ 
 * Scatter plot
  <img src="https://ewm.swiss/application/files/3916/6365/7200/The_Future_of_Marketing_EWM_SA_Digital_Agency_Geneva.jpg" width="1100" height="450">
  
@@ -50,6 +52,8 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
 1. Define variables
 2. Get dummy variables
 3. Split the data into train and test dataset
+   train: 2727 data
+   test:  1819 data
   
 ## 4. Modeling (Not yet)
 * Linear Regression
@@ -65,4 +69,5 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
   
 ## 5. Evaluation
  <img src="https://ewm.swiss/application/files/3916/6365/7200/The_Future_of_Marketing_EWM_SA_Digital_Agency_Geneva.jpg" width="1100" height="450">
+ 
 ## 6. Recommendation
