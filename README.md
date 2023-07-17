@@ -57,7 +57,9 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
   
 ## 4. Modeling   
    <img src="https://global-uploads.webflow.com/5d3ec351b1eba4332d213004/6026b7494be6481c635b0f84_axkJOrqGKDEK3a6U4mf8fRr5t0FKQIVvbJhDFVFyINVnpkEcv54vLydIg4BOcmyl-cSRakxD3L5-JR8GXMuNU67F5eTXD7ZpL6-MEekv50k8lkEMvIT8ludrUxWOjhAZ8i1_-7eY.png" width="400">
+   
 The trade-off between interpretability and performance of these ML models. Highly interpretable algorithms such as linear regression, are often inaccurate because of high bias but low variance. Very accurate DNNs are a classic example of black boxes, with low bias but high variance. However, the model performance is highly associated with the data type. Several models were included for further evaluation:
+
 * Linear Regression
 * LASSO Regression
 * Ridge Regression
@@ -80,18 +82,11 @@ The linear model has demonstrated superior performance, making it a compelling c
 
 * Adjusted R-square: 0.999 indicates that the model can explain approximately 99.9% of the variation in the dependent variable based on the independent variables included in the model. 
 * p-value of Global F: 0.00 means statistical significance, so we are reasonably sure at least one variable is not 0. There is a relationship between independent and dependent variables in the population. 
-* Model: Sales = -0.204 + 3.563 * (TV spend) + 0.007 * (Radio spend) + (-0.043) * (Social media spend)
-                 + 0.057 * (Influencer_Mega) 
-                 + (-0.047) * (Influencer_Micro)
-                 + (-0.069) * (Influencer_Nano)
-How to make a prediction:
-| Coefficient | Modeling Role | Description |
-| ---- | ------------- | ---------------- | 
-| **TV** | input | float | TV promotion budget (in million) |
-| **Radio** | input | float | Radio promotion budget (in million) |
-| **Social Media** | input | float | Social Media promotion budget (in million) |
-| **Influencer** | input | Object | Type of Influencers |
-| **Sales** | target | float | Sales in million |
+* Model: Sales = -0.204 + 3.563 * (TV spend) + 0.007 * (Radio spend) + (-0.043) * (Social media spend) <br>
+                 + 0.057 * (Influencer_Mega) <br>
+                 + (-0.047) * (Influencer_Micro) <br>
+                 + (-0.069) * (Influencer_Nano) <br>
+Influence_Macro is the reference group.
 
 * p-value: Only the variable TV is statistically significant suggesting that we are reasonably sure the coefficient of TV is not 0 in the population. 
 
@@ -102,3 +97,8 @@ y_pred = linear_regressor.predict(X_test)
 ```
 * Scatter plot of Prediction and Test data
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/y_pred%20vs%20y_test.jpg" width="500">
+ 
+### Limitation
+1. The R-square is extremely high, only representing this dataset. It cannot suggest either the different marketing projects in this company, the other company's management, or the real situation. Different datasets would change the coefficient of the linear model, so the inferencing analysis is effective in this project. 
+2. This model did not consider the interaction between the variables. The synergy effect could happen under a specific circumstance. Media channels could interact with each other. 
+3. Even though the linear model explained the best, a further linear assumption can be checked: Homoscedasticity, Multicollinearity, Outlier, and Non-Constant Variance, etc.
