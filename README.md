@@ -10,7 +10,7 @@ Badge [source](https://shields.io/)
 
 In this project, we aim to optimize media spending for a business by leveraging data mining techniques to analyze the relationship between media spend and revenue. The company has been running multiple media channels to promote its products/services, and while it has ROI metrics to evaluate Key Performance Indicators (KPIs), it is more interested in understanding how media spend influences revenue. Through machine learning and inferencing techniques, we seek to predict sales based on media spend, enabling the company to allocate resources effectively and optimize its media channel management.
 
-## Repository structure (Not yet)
+## Repository structure 
 ```
 ├── Image
 │   ├── evaluation.jpg                         <- model summary table used in the README.
@@ -24,7 +24,6 @@ In this project, we aim to optimize media spending for a business by leveraging 
 ├── Dummy Data HSS.csv                         <- dataset
 ├── LICENSE.txt                                <- license
 ├── Sales_Prediction_code.ipynb                <- python code
-
 ```
 ## 1. Business Understanding
 Via the regression, we can predict the sales from media spending. Therefore, the company would manage its media channel effectively. Several machine learning techniques were applied and the best predictor would be suggested. 
