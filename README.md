@@ -76,6 +76,7 @@ Several models were included:
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/evaluation.jpg" width="500" >
  
 ## 6. Recommendation
+### Inferencing
 The linear model has demonstrated superior performance, making it a compelling candidate for a detailed analysis. Its simplicity and interpretability allow us to draw meaningful inferences for the entire population. The below summary table shows the R-square, Global F, coefficient, and p-value of the model:
 
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/lr%20summary%20table.jpg" width="500">
@@ -88,11 +89,10 @@ The linear model has demonstrated superior performance, making it a compelling c
                  + (-0.069) * (Influencer_Nano) 
 * p-value:
 
-* code to predict test data
-  
+### Deployment
+* code to predict test data  
 ```
 y_pred = linear_regressor.predict(X_test)
-
 ```
-
+* Scatter plot of Prediction and Test data
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/y_pred%20vs%20y_test.jpg" width="500">
