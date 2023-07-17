@@ -46,7 +46,10 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
  <img src="https://ewm.swiss/application/files/3916/6365/7200/The_Future_of_Marketing_EWM_SA_Digital_Agency_Geneva.jpg" width="1100" height="450">
  
 ## 3. Data Preparation 
-
+1. Define variables
+2. Get dummy variables
+3. Split the data into train and test dataset
+  
 ## 4. Modeling (Not yet)
 * Linear Regression
 * LASSO Regression
