@@ -13,17 +13,17 @@ In this project, we aim to optimize media spending for a business by leveraging 
 ## Repository structure 
 ```
 ├── Image
-│   ├── Evaluation.jpg                           <- model summary table used in the README
-│   ├── Heatmap.jpg                              <- heatmap image used in the README
-│   ├── LR summary table.jpg                     <- linear regression model summary table used in the README
-│   ├── Original dataset.jpg                     <- original dataset image used in the README
-│   ├── Pairplot.jpg                             <- pairplot of different variables used in the README
-│   ├── Statistics.jpg                           <- statistics of variables used in the README
-│   ├── y_pred vs y_test.jpg                     <- scatterplot of the predictions with test value used in the README                                
+│   ├── 2.1 Original dataset.jpg                   <- original dataset used in the README
+│   ├── 2.2 Statistics.jpg                         <- data statistics used in the README
+│   ├── 2.3 Heatmap.jpg                            <- heatmap image used in the README
+│   ├── 2.4 Pairplot.jpg                           <- pairplot of different variables used in the README
+│   ├── 5.1 Evaluation.jpg                         <- model summary table used in the README
+│   ├── 6.1 LR summary table.jpg                   <- linear regression model summary table used in the README
+│   ├── 6.2 y_pred vs y_test.jpg                   <- scatterplot of the predictions with test value used in the README                                
 │
-├── Code_Sales_Prediction_.ipynb                 <- python code
-├── Data_Dummy Data HSS.csv                      <- dataset
-├── LICENSE.txt                                  <- license 
+├── Code_Sales_Prediction_.ipynb                   <- python code
+├── Data_Dummy Data HSS.csv                        <- dataset
+├── LICENSE.txt                                    <- license 
 ```
 ## 1. Business Understanding
 Via the regression, we can predict the sales from media spending. Therefore, the company would manage its media channel effectively. Several machine learning techniques were applied and the best predictor would be suggested. 
@@ -32,7 +32,7 @@ Via the regression, we can predict the sales from media spending. Therefore, the
 The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/harrimansaragih/dummy-advertising-and-sales-data (also please see Data_Dummy Data HSS.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.
 
 * Original Dataset
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/Original%20dataset.jpg" width="400">
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/2.1 Original%20dataset.jpg" width="400">
  
 | Name | Modeling Role | Measurement Level| Description|
 | ---- | ------------- | ---------------- | ---------- |
@@ -43,13 +43,13 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
 | **Sales** | target | float | Sales in million |
 
 * Statistics
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/Statistics.jpg" width="300">
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/2.2 Statistics.jpg" width="300">
  
 * Heatmap
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/Heatmap.jpg" width="300">
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/2.3 Heatmap.jpg" width="300">
 
 * Pairplot
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/Pairplot.jpg" width="400">
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/2.4 Pairplot.jpg" width="400">
  
 ## 3. Data Preparation 
 1. Define variables (X and y)
@@ -75,13 +75,13 @@ The trade-off between interpretability and performance of these ML models. Highl
 * Neural Network Regression
   
 ## 5. Evaluation
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/Evaluation.jpg" width="600" >
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/5.1 Evaluation.jpg" width="600" >
  
 ## 6. Recommendation
 ### Inferencing
 The linear model has demonstrated superior performance, making it a compelling candidate for a detailed analysis. Its simplicity and interpretability allow us to draw meaningful inferences for the entire population. The below summary table shows the R-square, Global F, coefficient, and p-value of the model:
 
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/LR%20summary%20table.jpg" width="500">
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/6.1 LR%20summary%20table.jpg" width="500">
 
 * Adjusted R-square: 0.999 indicates that the model can explain approximately 99.9% of the variation in the dependent variable based on the independent variables included in the model. 
 * p-value of Global F: 0.00 means statistical significance, so we are reasonably sure at least one variable is not 0. There is a relationship between independent and dependent variables in the population. 
@@ -99,7 +99,7 @@ The linear model has demonstrated superior performance, making it a compelling c
 y_pred = linear_regressor.predict(X_test)
 ```
 * Scatter plot of Prediction and Test data
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/y_pred%20vs%20y_test.jpg" width="500">
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/6.2 y_pred%20vs%20y_test.jpg" width="500">
  
 ### Limitation
 1. The R-square is extremely high, only representing this dataset. It cannot suggest either the different marketing projects in this company, the other company's management, or the real situation. Different datasets would change the coefficient of the linear model, so the inferencing analysis is effective in this project. 
