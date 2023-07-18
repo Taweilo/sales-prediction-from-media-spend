@@ -32,7 +32,7 @@ Via the regression, we can predict the sales from media spending. Therefore, the
 The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/harrimansaragih/dummy-advertising-and-sales-data (also please see Data_Dummy Data HSS.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.
 
 * Original Dataset
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/original%20dataset.jpg" width="400">
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/Original%20dataset.jpg" width="400">
  
 | Name | Modeling Role | Measurement Level| Description|
 | ---- | ------------- | ---------------- | ---------- |
@@ -43,13 +43,13 @@ The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: h
 | **Sales** | target | float | Sales in million |
 
 * Statistics
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/statistics.jpg" width="300">
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/Statistics.jpg" width="300">
  
 * Heatmap
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/heatmap.jpg" width="300">
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/Heatmap.jpg" width="300">
 
 * Pairplot
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/pairplot.jpg" width="400">
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/Pairplot.jpg" width="400">
  
 ## 3. Data Preparation 
 1. Define variables (X and y)
@@ -75,13 +75,13 @@ The trade-off between interpretability and performance of these ML models. Highl
 * Neural Network Regression
   
 ## 5. Evaluation
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/evaluation.jpg" width="500" >
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/Evaluation.jpg" width="500" >
  
 ## 6. Recommendation
 ### Inferencing
 The linear model has demonstrated superior performance, making it a compelling candidate for a detailed analysis. Its simplicity and interpretability allow us to draw meaningful inferences for the entire population. The below summary table shows the R-square, Global F, coefficient, and p-value of the model:
 
- <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/lr%20summary%20table.jpg" width="500">
+ <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/LR%20summary%20table.jpg" width="500">
 
 * Adjusted R-square: 0.999 indicates that the model can explain approximately 99.9% of the variation in the dependent variable based on the independent variables included in the model. 
 * p-value of Global F: 0.00 means statistical significance, so we are reasonably sure at least one variable is not 0. There is a relationship between independent and dependent variables in the population. 
