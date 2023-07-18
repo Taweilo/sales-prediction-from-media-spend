@@ -21,15 +21,15 @@ In this project, we aim to optimize media spending for a business by leveraging 
 │   ├── statistics.jpg                           <- statistics of variables used in the README
 │   ├── y_pred vs y_test.jpg                     <- scatterplot of the predictions with test value used in the README                                
 │
-├── Dummy Data HSS.csv                           <- dataset
-├── LICENSE.txt                                  <- license
-├── Sales_Prediction_code.ipynb                  <- python code
+├── Code_Sales_Prediction_.ipynb                 <- python code
+├── Data_Dummy Data HSS.csv                      <- dataset
+├── LICENSE.txt                                  <- license 
 ```
 ## 1. Business Understanding
 Via the regression, we can predict the sales from media spending. Therefore, the company would manage its media channel effectively. Several machine learning techniques were applied and the best predictor would be suggested. 
 
 ## 2. Data Understanding 
-The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/harrimansaragih/dummy-advertising-and-sales-data (also please see Dummy Data HSS.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.
+The Sales & Media Spend data was loaded via Colab. The dataset is from Kaggle: https://www.kaggle.com/datasets/harrimansaragih/dummy-advertising-and-sales-data (also please see Data_Dummy Data HSS.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.
 
 * Original Dataset
  <img src="https://github.com/Taweilo/Sales_Prediction_from_Media_Spend/blob/main/Image/original%20dataset.jpg" width="400">
